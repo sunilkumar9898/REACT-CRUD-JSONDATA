@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+	align-items: center;
+	background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	place-items: center;
+}
+
+form{
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  width: 25%;
+  padding: 5% 5% 1% 5%;
+  margin: 50px auto;
+  background-color: #0000005e;
+
+
+}
+
+form h1{
+  text-align: center;
+  color: rgb(15, 14, 14);
+}
+form div{
+  display: grid;
+  margin: 15px 0px;
+  gap: 5px 40px;
+    color: rgb(12, 11, 11);
+}
+
+form div input{
+  padding: 5px;
+  border: none;
+  color: rgb(5, 5, 5);
+  font-size:18px;
+  border-bottom: 2px solid gray;
+  outline: none;
+  background: none;
+}
+form div input::placeholder{
+  color: rgb(14, 10, 10);
+}
+form button{
+  text-align: center;
+align-items: center;
+display: flex;
+margin: 30px auto;
+padding: 8px 20px;
+border: none;
+color: white;
+border-radius: 5px;
+transition: all .2s ease-in;
+background-color: rgb(41, 77, 41);
+}
+form button:hover{
+  background-color: green;
+  cursor: pointer;
+transform: translateY(-2px) scale(1.02);
+box-shadow: rgb(7, 8, 8) 3px 3px 6px 0px inset, rgba(7, 5, 5, 0.5) -3px -3px 6px 1px inset;
+border-radius: 5px;
+}
+
+.table{
+  width: 60%;
+  margin: auto;
+}
+ table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: aliceblue;
+  border: none;
+}
+thead tr th{
+  padding: 10px;
+  background-color: #71727d;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+}
+table tbody tr td{
+  padding: 5px;
+}
+table tbody tr:nth-child(odd){
+  background-color: #ccc4d235;
+}
+
+table tbody tr:nth-child(even){
+  background-color: #92859b69;
+}
+.btn{
+
+gap: 20px;
+margin: auto;
+justify-content: center;
+
+
+}
+
+.btn button{
+  margin-left: 20px;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(244, 239, 239);
+  background-color: rgb(255, 0, 0);
+
+
+}
+.btn button:nth-child(1)
+{
+    color: rgb(11, 8, 8);
+  background-color: rgb(237, 142, 0);
+}
+.btn button:hover{
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
