@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+font-family: Georgia, Times, serif;
+}
+
+.container{
+  background-color: #222222;
+  width: 100%;
+padding: 10px;
+height: 100vh;
+
+}
+
+.form{
+  width: 100%;
+
+  color: white;
+
+}
+
+.form h1{
+  text-align: center;
+  font-size: 30px;
+  margin: 20px auto;
+}
+
+.text{
+
+padding: 15px 0px;
+}
+.form-input {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: Georgia, Times, serif;
+}
+
+.form-input input::placeholder {
+  opacity: 0;
+}
+
+.form-input input {
+  width: 100%;
+  height: 40px;
+  font-size: 1.2rem;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgb(221, 220, 220);
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #222222;
+  color: rgb(235, 199, 69);
+  font-family: Georgia, Times, serif;
+}
+
+.form-input label {
+  position: absolute;
+  left: 10px;
+  font-family: Georgia, Times, serif;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: rgb(235, 199, 69);
+  letter-spacing: 1px;
+  transition: 0.3s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.form-input input:focus + label,
+.form-input input:not(:placeholder-shown) + label {
+  top: 0;
+  font-size: 1.1rem;
+  color: rgb(235, 199, 69);
+  padding: 7px;
+  font-family: Georgia, Times, serif;
+}
+
+.form-input input:focus {
+  border: 2px solid rgb(61, 59, 62);
+  font-family: Georgia, Times, serif;
+}
+
+.btn{
+  display: flex;
+margin: auto;
+justify-content: center;
+margin: 20px auto;
+
+}
+img{
+  width: 40%;
+  margin: auto;
+}
+.terms{
+  display: flex;
+  color: rgb(235, 199, 69);
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.btn button{
+  padding: 6px 30px;
+  border: none;
+  background-color: rgb(235, 199, 69);
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+}
