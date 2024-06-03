@@ -1,0 +1,19 @@
+{
+  "studentdata": [
+    {
+      "id": "ade1",
+      "name": "ramu singh",
+      "password": "ssss@gmail.com"
+    },
+    {
+      "id": "701f",
+      "name": "Parhlad singh ",
+      "password": "ajay@gmail.com"
+    },
+    {
+      "id": "3904",
+      "name": "ramu singh",
+      "password": "ssss@gmail.com"
+    }
+  ]
+}
