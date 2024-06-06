@@ -64,7 +64,7 @@ handleSeacrh()
         <>
             <div className="flex justify-between w-full px-5 py-6 shadow-md ">
                 <h1 className="text-2xl">
-                    Total filter Product{allproductfilter.length}
+                    Total filter Product : {allproductfilter.length}
                 </h1>
                 <h1 className="text-2xl">
                     filter price{allproductfilter1.length}
@@ -111,7 +111,7 @@ handleSeacrh()
                 </button>
             </div>
             <div className="grid grid-cols-5 gap-4">
-                
+
                 {allproductfilter.map((ele) => {
                     return (
                         <div className="shadow-md p-5 h-[25rem]">

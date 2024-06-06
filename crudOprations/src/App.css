@@ -10,22 +10,30 @@ table{
     width: 50%;
     margin: auto;
     justify-content: center;
-    border: 1px solid rgb(11, 146, 31);
+    /* border: 1px solid rgb(11, 146, 31); */
     padding: 10px;
 
 }
-table  tr,td{
-    border: 1px solid rgb(155, 147, 147);
-}
+
 thead tr th{
     text-align: center;
     padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
 }
 tbody tr td{
     text-align: center;
     padding: 10px;
+    border-bottom: 1px dotted gray;
 }
 
+tbody tr td:nth-child(even){
+    background-color: rgb(196, 217, 222);
+}
+tbody tr td:nth-child(odd){
+    background-color: rgb(230, 181, 181);
+}
 .btn button{
 
 margin-left: 10px;

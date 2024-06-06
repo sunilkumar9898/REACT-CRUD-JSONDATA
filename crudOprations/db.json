@@ -1,19 +1,19 @@
 {
   "studentdata": [
     {
-      "id": "ade1",
-      "name": "ramu singh",
-      "password": "ssss@gmail.com"
+      "id": "8f84",
+      "name": "ramu singh ",
+      "email": "webdevlopersunil1997@gmail.com"
     },
     {
-      "id": "701f",
-      "name": "Parhlad singh ",
-      "password": "ajay@gmail.com"
+      "id": "2b0f",
+      "name": "manjeet kumar",
+      "email": "webdevlopersunil1997@gmail.com"
     },
     {
-      "id": "3904",
-      "name": "ramu singh",
-      "password": "ssss@gmail.com"
+      "id": "cae2",
+      "name": "Sunil Kumar",
+      "email": "ram@gmail.com"
     }
   ]
 }

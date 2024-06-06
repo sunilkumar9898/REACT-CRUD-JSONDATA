@@ -1,0 +1,112 @@
+.form {
+    width: 20%;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* gap: 10px;background-color: rgb(128, 128, 128); */
+    color: rgb(6, 5, 5);
+}
+.form h1 {
+    text-align: center;
+    color: rgb(3, 2, 2);
+}
+.form .img {
+    text-align: center;
+    margin: auto;
+}
+.form .img img {
+    width: 20%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+.form input {
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 1px solid rgb(28, 27, 27);
+}
+::placeholder {
+    color: rgba(16, 14, 14, 0.438);
+    opacity: 1;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+}
+
+.email {
+    margin-top: 15px;
+}
+.form button {
+    width: auto;
+    border: none;
+    background-color: #376da9;
+    text-transform: uppercase;
+    color: rgb(235, 231, 231);
+    padding: 9px 30px;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+}
+.form button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.table table {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 5px;
+    margin: 50px auto;
+    overflow-x: scroll;
+    border: none;
+
+}
+
+table thead tr th {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(161, 155, 155);
+    color: white;
+}
+
+table tbody tr td {
+    padding: 5px;
+}
+table tbody tr:nth-child(odd) {
+    background-color: rgba(206, 232, 174, 0.309);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgba(218, 174, 142, 0.333);
+}
+
+table tbody tr td button {
+    margin: 0px 10px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+table tbody tr td button:nth-child(1) {
+    background-color: rgb(224, 20, 20);
+    color: white;
+}
+
+table tbody tr td button:nth-child(2) {
+    background-color: rgb(38, 97, 58);
+    color: white;
+}
+
+@media (min-width: 220px) and (max-width: 520px) {
+    .form {
+        width: 90%;
+        gap: 10px;
+    }
+}
