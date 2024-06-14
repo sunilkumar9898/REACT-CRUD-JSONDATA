@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+      font-family: tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+
+}
+
+
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  background-color: #254336;
+  color: white;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+nav a{
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.container {
+position: relative;
+top: 40px;
+}
+
+.hero_section img{
+  width: 100%;
+background-position: center;
+  background-size: cover;
+  background-clip:content-box;
+  background-repeat: no-repeat;
+background-blend-mode: darken;
+backdrop-filter: 45px;
+height: 880px;
+}
+
+
+/*  */
+
+
+.about_text h1{
+color: #254336;
+  font-size: clamp(12px,2vw,30px);
+}
+.about_text p{
+  color: rgba(128, 128, 128, 0.866);
+  font-size: clamp(12px,2vw,20px);
+
+}
+
+.about_text button{
+  padding: 10px 18px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: #254336;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+
+}
+.about_text button:hover{
+  transition: all .3s ease-out;
+  background-color: #3ea07b;
+  cursor: pointer;
+}
+.about_img img{
+  width: 80%;
+  height: 30vh;
+  aspect-ratio: 1;
+}
+/* <---------------------------Contatc --------------------> */
+.contact{
+  margin: 50px auto;
+}
+
+.contact_heading {
+  padding: 50px 0px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+
+}
+
+
+.contact_heading h1{
+  font-size: clamp(12px ,4vw,45px);
+  width: 50%;
+  margin: auto;
+  color: #191511;
+}
+.contact_heading p{
+  font-size: clamp(12px ,2vw,25px);
+  opacity: .9;
+  padding: 10px 0px;
+}
+
+
+
+.contact_heading1 {
+  padding: 50px 0px;
+  text-align: center;
+  margin: auto;
+
+}
+
+
+.contact_heading1 h1{
+  font-size: clamp(12px ,4vw,35px);
+  width: 50%;
+  margin: auto;
+  color: #191511;
+}
+.contact_heading1 p{
+  font-size: clamp(12px ,2vw,20px);
+  opacity: .9;
+  width: 65%;
+  margin: auto;
+  padding: 10px 0px;
+}
+.contact_row{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+
+}
+.contact_row1{
+  /* text-align: center; */
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+
+}
+.col{
+  margin: 10px 5px;
+  padding: 20px;
+  background-color: #DAD3BE;
+  border-radius: 5px;
+      font-family: tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+
+
+}
+.col h1{
+  font-size: 22px;
+  padding: 5px 0px;
+    font-weight: 700;
+
+
+
+
+}
+.col p{
+  font-size:15px;
+  padding: 5px 0px;
+    font-weight: 500;
+}
+.col a{
+  font-size:17px;
+  padding: 5px 0px;
+    font-weight: 400;
+}
+.col1{
+  margin: auto;
+  justify-content: center;
+  padding: 10px 0px 10px 50px;
+}
+
+.col1 h1{
+font-size: 18px;
+padding: 5px 0px;
+}
+
+.col1 p{
+font-size: 16px;
+padding: 5px 0px;
+}
+.col1 p:nth-child(even){
+font-size: 14px;
+color: rgb(116, 112, 112);
+
+}
+.col1 img{
+  aspect-ratio: 1;
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+.gallery{
+  margin: auto;
+  width: 100%;
+}
