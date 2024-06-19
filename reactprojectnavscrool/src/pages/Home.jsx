@@ -14,22 +14,22 @@ const Home = () => {
           <Carousel autoplay arrows className='hero_section'>
               <div>
                   <h3 style={contentStyle}>
-                      <img  src="01.avif" alt="" />
+                      <img  src="29.jpg" alt="" />
                   </h3>
               </div>
               <div>
                   <h3 style={contentStyle}>
-                      <img src="02.avif" alt="" />
+                      <img src="02.jpg" alt="" />
                   </h3>
               </div>
               <div>
                   <h3 style={contentStyle}>
-                      <img src="03.avif" alt="" />
+                      <img src="03.jpg" alt="" />
                   </h3>
               </div>
               <div>
                   <h3 style={contentStyle}>
-                      <img src="04.avif" alt="" />
+                      <img src="04.jpg" alt="" />
                   </h3>
               </div>
           </Carousel>
