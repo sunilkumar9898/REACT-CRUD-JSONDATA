@@ -24,7 +24,7 @@ const Contact = () => {
                                 is available Monday - Friday 9AM-6PM ET. Please
                                 log in to chat.
                             </p>
-                            <a href="">Log In</a>
+                            <a href="#">Log In</a>
                         </Col>
                         <Col className="col" md={7} sm={22} xs={20} xxl={7}>
                             <h1>Email support</h1>
@@ -32,7 +32,7 @@ const Contact = () => {
                                 Prefer to email? Send us an email and we’ll get
                                 back to you soon. Lorem ipsum dolor sit amet.
                             </p>
-                            <a href="">Send Email</a>
+                            <a href="#">Send Email</a>
                         </Col>
                         <Col className="col" md={7} sm={22} xs={20} xxl={7}>
                             <h1>Help center</h1>
@@ -41,7 +41,7 @@ const Contact = () => {
                                 400+ articles to help Lorem ipsum dolor sit
                                 amet, consectetur adipisicing elit.
                             </p>
-                            <a href="">Visit Help center</a>
+                            <a href="#">Visit Help center</a>
                         </Col>
                     </Row>
                 </div>

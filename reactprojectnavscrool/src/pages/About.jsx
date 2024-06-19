@@ -6,8 +6,6 @@ const About = () => {
         margin:"50px auto",
         placeItem: "center",
         gridTemplatesColumn:"auto"
-
-
     };
   return (
       <div className="container">

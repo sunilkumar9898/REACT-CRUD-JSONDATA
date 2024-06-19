@@ -5,8 +5,51 @@ const Galllery = () => {
 
 
   return (
-      <div className="gallery">
-        <h1>color Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam at, quae omnis fugit illo sit nesciunt soluta eveniet dolore neque ut, provident reprehenderit nam reiciendis dolorum aperiam deserunt molestias? Totam a vitae nulla, perferendis neque, assumenda fugit eligendi quam reiciendis, amet odit magni ab excepturi asperiores in. Quasi, nihil, consectetur iure labore aperiam, voluptatum veniam natus aliquam harum facere sapiente molestiae excepturi possimus iste minima soluta ducimus maxime. Magnam molestias mollitia fuga, distinctio animi perferendis ducimus beatae nulla. Magnam doloribus tempora impedit incidunt nulla soluta! Officiis debitis aliquid, voluptates ullam recusandae corrupti impedit repudiandae sit nostrum! Sunt, temporibus aut vero dolores maiores fugiat natus sint iure laborum tenetur aspernatur incidunt totam possimus placeat enim? Sunt eos veritatis fugit ullam voluptate?</h1>
+      <div className="container">
+          <div className="flex-gallery">
+              <div>
+                  <img src="15.webp" alt="gallery" />
+              </div>
+              <div className="extra-large">
+                  <img src="16.avif" alt="gallery" />
+              </div>
+              <div>
+                  <img src="17.webp" alt="gallery" />
+              </div>
+              <div>
+                  <img src="28.avif" alt="gallery" />
+              </div>
+              <div>
+                  <img src="19.webp" alt="gallery" />
+              </div>
+              <div>
+                  <img src="20.webp" alt="gallery" />
+              </div>
+              <div>
+                  <img src="21.webp" alt="gallery" />
+              </div>
+              <div>
+                  <img src="22.webp" alt="gallery" />
+              </div>
+              <div className="large">
+                  <img src="23.avif" alt="gallery" />
+              </div>
+              <div className="large">
+                  <img src="24.avif" alt="gallery" />
+              </div>
+              <div>
+                  <img src="25.avif" alt="gallery" />
+              </div>
+              <div>
+                  <img src="26.avif" alt="gallery" />
+              </div>
+              {/* <div>
+                  <img src="27.avif" alt="gallery" />
+              </div>
+              <div>
+                  <img src="28.avif" alt="gallery" />
+              </div> */}
+          </div>
       </div>
   );
 }
